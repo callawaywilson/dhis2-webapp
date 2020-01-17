@@ -12,7 +12,7 @@ RUN apt-get update \
 
 RUN if [ ! -f /dhis2/dhis.war ]; \
     then \
-        curl -L https://s3-eu-west-1.amazonaws.com/releases.dhis2.org/2.29/dhis.war -o /dhis2/dhis.war; \
+        curl -L https://s3-eu-west-1.amazonaws.com/releases.dhis2.org/2.33/2.33.1/dhis.war -o /dhis2/dhis.war; \
     fi; \
     rm -rf /usr/local/tomcat/webapps/* \
     && unzip /dhis2/dhis.war -d /usr/local/tomcat/webapps/ROOT
