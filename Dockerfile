@@ -12,7 +12,7 @@ RUN apt-get update \
 
 RUN if [ ! -f /dhis2/dhis.war ]; \
     then \
-        curl -L https://releases.dhis2.org/2.33/dhis2-stable-2.33.4.war -o /dhis2/dhis.war; \
+        curl -L https://releases.dhis2.org/2.36/dhis2-stable-2.36.0.war -o /dhis2/dhis.war; \
     fi; \
     rm -rf /usr/local/tomcat/webapps/* \
     && unzip /dhis2/dhis.war -d /usr/local/tomcat/webapps/ROOT
