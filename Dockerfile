@@ -1,6 +1,8 @@
 FROM tomcat:8
 EXPOSE 8080
 
+COPY tomcat/server.xml /usr/local/tomcat/conf
+
 RUN mkdir -p /dhis2/home
 ENV DHIS2_HOME /dhis2/home
 COPY conf/dhis.conf /dhis2/home
