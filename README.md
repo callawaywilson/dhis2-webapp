@@ -13,3 +13,8 @@ I keep this repository up-to-date based on versions of DHIS2 I need to deploy.  
 * `DATABASE_USERNAME` *connection.username* setting in dhis2.conf
 * `DATABASE_PASSWORD` *connection.password* setting in dhis2.conf
 * `ENCRYPTION_PASSWORD` *connection.password* setting in dhis2.conf
+* `FILESTORE_PROVIDER` *filestore.provider* setting in dhis2.conf
+* `FILESTORE_CONTAINER` *filestore.container* setting in dhis2.conf
+* `FILESTORE_LOCATION` *filestore.location* setting in dhis2.conf
+* `FILESTORE_IDENTITY` *filestore.identity* setting in dhis2.conf
+* `FILESTORE_SECRET` *filestore.secret* setting in dhis2.conf
